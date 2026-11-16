@@ -1,0 +1,8 @@
+{
+  "name": "端で決まる定在波ラボ",
+  "description": "固定端と自由端の反射によってできる定在波（定常波）の節と腹を、予想・再生・観察を通して確かめる高校物理シミュレーション教材。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
