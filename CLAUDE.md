@@ -44,4 +44,4 @@
 - Vite 8 + React 19 + TypeScript、Tailwind CSS 4（`@tailwindcss/vite`）、lucide-react
 - サーバーなしの静的サイト。保存は一切しない（localStorage も使わない）。通信なし
 - 物理モデル（入射波・反射波・合成波・節と腹の位置）は `src/physics.ts`、定数は `src/constants.ts`、型は `src/types.ts`、波の描画は `src/components/WaveCanvas.tsx`
-- AI Studio の雛形由来で `@google/genai`・`express`・`dotenv`・`motion` が package.json に、`GEMINI_API_KEY` が `.env.example` に残っているが、`src/` からは使っていない（Gemini は呼ばない）。`metadata.json` の `MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API` も同じく雛形由来
+- Gemini は呼ばない。AI Studio の雛形由来だった `@google/genai`・`express`・`dotenv`・`motion` などの未使用パッケージと `.env.example` は削除済みで、環境変数は不要。`metadata.json` の `majorCapabilities` も空
