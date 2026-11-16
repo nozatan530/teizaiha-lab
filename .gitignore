@@ -6,3 +6,8 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# template
+prompts/*/eval-result.json
+docs/verify/*.png
+.claude/settings.local.json
